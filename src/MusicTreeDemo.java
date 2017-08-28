@@ -1,10 +1,12 @@
 import java.util.ArrayList;
 import java.util.Iterator;
 
-
+//This is the Tree Demo is for getters and setters.
+// Retreving the direct child, to the root of parrent.
+// Setting each child to the exact root. //
 
 public class MusicTreeDemo<T> implements Position<T> {
-	
+
 	private Tree<T> tree;
 	private T element;
 	private ArrayList<MusicTreeDemo<T>> children;
@@ -51,6 +53,6 @@ public class MusicTreeDemo<T> implements Position<T> {
 		return element.toString();
 	}
 
-	
-	
+
+
 }
